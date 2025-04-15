@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        if (email == "niccvann" && password == "pass4321") {
+        if (password == "pass4321") {
             Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, HomeActivity::class.java)
             intent.putExtra("textViewUserName", email)
